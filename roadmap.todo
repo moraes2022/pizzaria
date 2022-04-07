@@ -104,20 +104,20 @@ Fase 6 - Retornando a página estática com pizzas:
 
 
 Fase 7 - Acrescentando estilo e imagens a página estática:
-    ☐ Dentro da pasta public/css crie um arquivo chamado styles.css
-    ☐ Copie para o arquivo styles.css o conteúdo do link abaixo:
+    ✔ Dentro da pasta public/css crie um arquivo chamado styles.css @done(22-04-06 21:37)
+    ✔ Copie para o arquivo styles.css o conteúdo do link abaixo: @done(22-04-06 21:37)
     https://github.com/sergiomoura/pizzaria-fantastica-tema/blob/master/assets/css/styles.css
-    ☐ Dentro da pasta public/css crie um arquivo chamado index.css
-    ☐ Copie para o arquivo index.css o conteúdo do link abaixo:
+    ✔ Dentro da pasta public/css crie um arquivo chamado index.css @done(22-04-06 21:39)
+    ✔ Copie para o arquivo index.css o conteúdo do link abaixo: @done(22-04-06 21:39)
     https://github.com/sergiomoura/pizzaria-fantastica-tema/blob/master/assets/css/index.css
 
     ☐ No arquivo pizzas.ejs:
-        ☐ Adeque o caminho do link do estilo para /css/styles.css
-        ☐ Adeque o caminho do link do estilo para /css/index.css
-        ☐ Adeque o caminho das imagens para /img/quatroqueijos.jpg
+        ✔ Adeque o caminho do link do estilo para /css/styles.css @done(22-04-06 21:45)
+        ✔ Adeque o caminho do link do estilo para /css/index.css @done(22-04-06 21:45)
+        ✔ Adeque o caminho das imagens para /img/quatroqueijos.jpg @done(22-04-06 21:51)
 
     Verificações:
-        ☐ Com o sevidor rodando, visite https://localhost:3000
+        ✔ Com o sevidor rodando, visite https://localhost:3000 @done(22-04-06 21:57)
         Você deve ver uma página exibindo as pizzas :p
 
 Fase 8 - Mostrando as pizzas dinamicamente a partir de um arquivo JSON:
