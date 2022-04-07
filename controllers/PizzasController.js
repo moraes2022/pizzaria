@@ -7,4 +7,15 @@ let pizzas = require('../database/Pizzas.json');
 module.exports = {
     listar: (req,res) => {
         res.render('pizzas.ejs', {pizzas, busca:''});              
-    }}
+    },
+
+    mostrar: (req, res) => {
+        //Capturar o id da pizza desejada pelo usuário (req.params.id) numa variável id @done(22-04-07 16:36)
+         let id = req.params.id
+         //Determining the position
+        let position = pizzas.findIndex(p => p.id == id);
+         // Guardando a pizza da posição na variável pizza
+         let pizza = pizzas[position];
+         res.render('pizza.ejs',{pizza});
+    }
+}

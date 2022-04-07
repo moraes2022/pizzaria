@@ -9,6 +9,7 @@ const PizzasController = require('../controllers/PizzasController');
 
 //Crie uma rota get para '/' direcionando a requisição para PizzasController.listar @done(22-04-06 21:15)
 router.get('/', PizzasController.listar);
+router.get('/pizzas/:id', PizzasController.mostrar);
 
 //Exporte essa constante @done(22-04-06 15:14)
 module.exports = router;
