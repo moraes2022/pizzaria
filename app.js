@@ -18,9 +18,10 @@ app.set('view engine', 'ejs');
 app.use(express.static(path.join(__dirname, 'public')));
 
 //Crie uma rota get para o endereço '/'. @done(22-04-06 14:47)
-app.get('/', function (req, res) {
-    res.send('Olá, visitante!')
-  })
+//No arquivo app.js, remova a rota app.get criada na Fase 2. @done(22-04-06 21:25)
+//app.get('/', function (req, res) {
+    //res.send('Olá, visitante!')
+  //})
 
 //Utilize o PizzasRouter como roteador da aplicação. Dica: app.use(____) @done(22-04-06 15:21)
   app.use('/', PizzasRouter);

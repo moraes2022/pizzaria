@@ -86,18 +86,18 @@ Fase 5 - Configurando o template engina e pasta de arquivos públicos:
         ✔ Verifique se o console está apresentando algum erro e se o nodemon está rodando. @done(22-04-06 16:14)
 
 Fase 6 - Retornando a página estática com pizzas:
-    ☐ No arquivo PizzasRouter.js:
-        ☐ Importe o PizzasController
-        ☐ Crie uma rota get para '/' direcionando a requisição para PizzasController.listar
-    ☐ No objeto literal que está no PizzasController.js, crie uma função chamada listar
+    ✔ No arquivo PizzasRouter.js: @done(22-04-06 21:19)
+        ✔ Importe o PizzasController @done(22-04-06 21:14)
+        ✔ Crie uma rota get para '/' direcionando a requisição para PizzasController.listar @done(22-04-06 21:15)
+    ✔ No objeto literal que está no PizzasController.js, crie uma função chamada listar @done(22-04-06 21:19)
         Essa função listar deve renderizar a view pizzas.ejs que será criado nos próximos passos
-    ☐ Crie uma pasta chamada views
-    ☐ Na pasta views crie um arquivo chamado pizzas.ejs
-    ☐ Copie para o arquivo pizzas.ejs o conteúdo do link abaixo:
+    ✔ Crie uma pasta chamada views @done(22-04-06 21:19)
+    ✔ Na pasta views crie um arquivo chamado pizzas.ejs @done(22-04-06 21:23)
+    ✔ Copie para o arquivo pizzas.ejs o conteúdo do link abaixo: @done(22-04-06 21:23)
     https://github.com/sergiomoura/pizzaria-fantastica-tema/blob/master/index.html
-    ☐ No arquivo app.js, remova a rota app.get criada na Fase 2.
+    ✔ No arquivo app.js, remova a rota app.get criada na Fase 2. @done(22-04-06 21:25)
     Verificações:
-        ☐ Com o sevidor rodando, visite http://localhost:3000.
+        ✔ Com o sevidor rodando, visite http://localhost:3000. @done(22-04-06 21:33)
             Você deve ver uma página com algumas informações sobre pizzas
             (nomes e preços) mas ainda sem estilização nem imagens
 
