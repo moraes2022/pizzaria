@@ -178,10 +178,10 @@ Fase 9 - Criando uma página para mostrar detalhes de uma pizza:
             O que se deve ver são as informações da pizza Fracatu, ainda sem estilização.
 
 Fase 10 - Acrescentando estilo à página de pizza:
-    ☐ Na pasta public/css crie um arquivo pizza.css
-    ☐ Copie para o arquivo pizza.css o conteúdo do link abaixo:
+    ✔ Na pasta public/css crie um arquivo pizza.css @done(22-04-07 17:17)
+    ✔ Copie para o arquivo pizza.css o conteúdo do link abaixo: @done(22-04-07 17:17)
     https://github.com/sergiomoura/pizzaria-fantastica-tema/blob/master/assets/css/pizza.css
-    ☐ Adeque o os links de estilos para que eles carreguem o estilo da pasta public
+    ✔ Adeque o os links de estilos para que eles carreguem o estilo da pasta public @done(22-04-07 17:18)
     
     Verificações:
         Com o servidor rodando, visite o endereço http://localhost:3000/pizzas/3
