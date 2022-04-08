@@ -173,7 +173,7 @@ Fase 9 - Criando uma página para mostrar detalhes de uma pizza:
         Obs:
             Ainda não alteraremos o link <a href="pizza.html" class="prev">&lt;</a>
 
-    Verificações:
+    ✔ Verificações: @done(22-04-08 11:47)
             Com o servidor rodando, visite o endereço http://localhost:3000/pizzas/3
             O que se deve ver são as informações da pizza Fracatu, ainda sem estilização.
 
@@ -183,18 +183,18 @@ Fase 10 - Acrescentando estilo à página de pizza:
     https://github.com/sergiomoura/pizzaria-fantastica-tema/blob/master/assets/css/pizza.css
     ✔ Adeque o os links de estilos para que eles carreguem o estilo da pasta public @done(22-04-07 17:18)
     
-    Verificações:
+    ✔ Verificações: @done(22-04-08 11:43)
         Com o servidor rodando, visite o endereço http://localhost:3000/pizzas/3
         O que se deve ver é uma página com as informações de uma pizza, agora, estilizada.
 
 Fase 11 - Criando link da página inicial para página de detalhes de uma pizza:
-    ☐ Na view da página inicial, ou seja, no arquivo pizzas.ejs altere o link:
+    ✔ Na view da página inicial, ou seja, no arquivo pizzas.ejs altere o link: @done(22-04-08 11:45)
     Onde se vê:
         <a href="pizza.html">Ver Mais</a>
     Deve se ver:
         <a href="/pizzas/<%= p.id %>">Ver Mais</a>
 
-    Verificações:
+    ✔ Verificações: @done(22-04-08 11:46)
         Com a aplicação rodando, visite o endereço da página inicial
         http://localhost:3000 e clique no link "Ver mais" de uma pizza.
         Você deve ser direcionado para a página que exibe as informações
