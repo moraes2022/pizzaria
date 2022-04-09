@@ -10,13 +10,30 @@ module.exports = {
     },
 
     mostrar: (req, res) => {
+
+        var idNext;
+        var idPrevious;
         //Capturar o id da pizza desejada pelo usuário (req.params.id) numa variável id @done(22-04-07 16:36)
          let id = req.params.id
          //Determining the position
         let position = pizzas.findIndex(p => p.id == id);
          // Guardando a pizza da posição na variável pizza
          let pizza = pizzas[position];
-         res.render('pizza.ejs',{pizza});
+           // Se a posição da pizza encontrada for a última do array idProxima
+        // deve receber o id da primeira pizza. Caso contrário, idProxima
+        // deve ter o id da pizza da posição seguinte 
+        if(position == pizzas.length - 1){
+            idNext = pizzas[0].id
+        } else {
+            idNext = pizzas[position + 1].id;
+        }
+             
+        if(posicao == 0){
+            idPrevious = pizzas[pizzas.length - 1].id;
+        } else {
+            idPrevious = pizzas[posicao - 1].id;
+        }        
+            res.render('pizza.ejs',{pizza, idPrevious, idNext});
     },
 
     buscar: (req, res) => {

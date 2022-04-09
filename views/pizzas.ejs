@@ -10,7 +10,7 @@
 <body>
 	<link rel="stylesheet" href="/css/styles.css">
 	<form action="/pizzas/busca" method="get">
-		<input type="text" name="q" placeholder="Qual pizza você procura?" autocomplete="off" value="">
+		<input type="text" name="q" placeholder="Qual pizza você procura?" autocomplete="off" value="<%= busca ? busca : '' %>">
 		<button type="submit">Buscar</button>
 	</form>
 
