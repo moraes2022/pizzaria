@@ -17,5 +17,15 @@ module.exports = {
          // Guardando a pizza da posição na variável pizza
          let pizza = pizzas[position];
          res.render('pizza.ejs',{pizza});
-    }
-}
+    },
+
+    buscar: (req, res) => {
+        let searchVarietyPizza = req.query.q;
+        console.log(req.query);
+        if(searchVarietyPizza == ''){
+            res.redirect('/');
+        } else {
+            let resultVarietyPizza = pizzas.filter(p=>p.nome.toUpperCase().includes(searchVarietyPizza.toUpperCase()))
+            res.render('pizzas.ejs',{pizzas: resultVarietyPizza, busca: searchVarietyPizza});
+        }
+}}
